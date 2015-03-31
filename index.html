@@ -1,0 +1,118 @@
+<!--===================================================
+	Title: mainpage.html
+	Author: Tiffany thuang13@stanford.edu
+	Last Modified: 3/17/2015
+=====================================================-->
+<!-- Todo:
+	Play with color scheme and font scheme
+	Come up with something eye-catching for front page
+	Add internal wiki-->
+	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hesselink Group page</title>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Icon 
+	<link rel="icon" href="http://getbootstrap.com/favicon.ico"> <!-- Insert group icon/stanford icon? -->
+
+	<!-- Google fonts -->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Garamond">
+	<link href='http://fonts.googleapis.com/css?family=Italiana' rel='stylesheet' type='text/css'>
+	
+	<!-- Bootstrap core CSS-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Custom styles for this template -->
+	<link href="css/main.css" rel="stylesheet">
+</head>
+  
+
+<body>
+	<div class="container">
+		<!-- ============ NAVIGATION BAR ============== -->
+		<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">Hesselink Group</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="main_light.html">Home</a></li>
+				<li><a href="research.html">Research</a></li>
+				<li><a href="people.html">People</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+		  </div>
+		</nav>
+		<!-- ============ CAROUSEL ============== -->
+		<div id="myCarousel" class="carousel slide">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="https://pbs.twimg.com/media/BUoW1CjCUAA1h-V.jpg" alt="Bert" class="img-responsive">
+				</div>
+				<div class="item">
+					<img src="https://farm7.staticflickr.com/6068/6072706094_84f4b8fd0a.jpg" alt="Beautiful Stanford" class="img-responsive">
+				</div>
+				<div class="item">
+					<canvas id="canvas"></canvas>
+					<script type="text/javascript" src="js/conveyor.js"></script>
+					<div class="carousel-caption"  style="color:#000000;">
+						<h4><a href="research.html">Nano-optical conveyor belt</a></h4>
+					</div>
+				</div>
+			</div>
+			<!-- Controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="icon-prev"></span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="icon-next"></span>
+			</a>  
+		</div>
+		
+		<!-- ============ ABOUT ============ -->
+		<div class="post">
+		  <p>Professor Hesselink's group focuses its research on fundamental processes 
+		  related to laser-matter interaction with novel applications in telecom 
+		  technology. The Hesselink group is investigating fundamental materials processes 
+		  in electro-optic media for manipulation of the refractive index and 
+		  modification of the interaction between waves and grating structures for 
+		  WDM switching applications. They have also pioneered the development of 
+		  digital holographic data storage systems.
+		  </p>	
+		</div>
+	</div> <!-- /.container -->
+</div><!--/.body -->
+<!-- ============ FOOTER ============-->
+<footer>
+	<p>&copy; 2015 Hesselink Research Group, Stanford University. &middot;</p>
+</footer>
+	
+<!-- ============ Bootstrap core JavaScript ============ -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+<script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+</html>
