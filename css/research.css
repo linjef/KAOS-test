@@ -1,0 +1,29 @@
+/*===================================================
+	Title: research.css
+	Authors: Tiffany
+	Description: Describes the layout of the page
+	Last modified: 3/2/2015
+=====================================================*/
+
+/* Define layout for content of page */
+.content {
+	margin-top: 100px; /*Give some margin so the text doesn't
+						overlap with the header*/
+	
+}
+
+/* Define each section */
+.section {
+	border-top-style: solid;
+	border-color: #990000;
+	margin-bottom: 40px;
+}
+
+.img{
+	padding: 10px;
+	width: 400px; 
+}
+
+strong{
+	color: #0000f3;
+}

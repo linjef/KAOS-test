@@ -1,0 +1,182 @@
+/*===================================================
+	Title: main.css
+	Authors: Tiffany
+	Description: Describes the layout of the page
+	Last modified: 3/2/2015
+=====================================================*/
+/* Colors: Red = #990000;
+		  White =#ffffff;
+		  Black = #000000;
+*/
+
+/* ============ GLOBAL STYLES ============ */
+html,body {
+  padding-bottom: 5px;
+  background-color: #ffffff;
+  color: #000000; /*Color of font*/
+  font-family: 'Trebuchet', Helvetica, sans-serif;
+  height: 100%;
+}
+
+h4{
+ /* font-family: 'Italiana', Helvetica, sans-serif; */
+}
+
+a{ /*Links*/
+	color: #990000;
+}
+a:hover{
+	color: #990000;
+	text-decoration: none;
+	text-shadow: 0.5px 0.5px #303030;
+}
+
+/* ============ CUSTOMIZE THE NAVBAR ============ */
+.navbar{
+  font-family: 'Italiana', 'Garamond', serif !important;
+  color: #ffffff !important;
+}
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0; 
+  z-index: 1000;
+}
+
+.navbar .container {
+	max-width: 790px;
+	border-radius: 0px;
+}
+
+.navbar-default {
+	background-color: #000000;
+}
+
+/* Navbar-brand: This is the heading that says Hesselink Group*/
+.navbar-default .navbar-brand {
+	color: #ffffff; /*text color for non-mouseover*/
+	font-size: 36px;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ffffff; /* mouseover color */
+}
+
+/* Menu items */
+.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: #ffffff;
+    color: #990000; /* mouseover color */
+}
+
+
+/* ============ CUSTOMIZE THE CAROUSEL ============ */
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 5px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  padding-bottom: 20px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+}
+
+.carousel-inner > .item > img {
+  position: relative;
+  top: 20%;
+  margin: auto;
+}
+
+/* Remove gradient on carousel control */
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
+
+/* Make carousel indicators show up on white background */
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+/* Change glyphicon color*/
+.left, .right, .left:hover, .right:hover{
+	color: #990000;
+}
+
+/* ============ POST ============ */
+.container {
+	float:center;
+	margin-top:0px; 
+	max-width:820px;
+	border-radius:10px; 
+	min-height: 100%;
+}
+
+.post {max-width: 500px;
+	font-size: 0.875em;
+	line-height: 1.5;
+	margin-top: 0px;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-bottom: -30px; /*This is supposed to keep footer at bottom*/
+	padding-bottom: 30px;
+	text-align: justify;
+}
+
+/* ============ FOOTER ============ */
+footer {
+    border-top:1px solid #000000;
+	margin-top:30px;
+    padding-top:5px;
+    height:30px;
+	color: #b8b8b8;
+	font-size: 10px;
+}
+
+footer .a{
+	clear: both;
+	color: #000080;
+	text-align: center;
+}
+
+/* ============ RESPONSIVE CSS ============ */ /*?? What does this do? */
+
+@media () {
+
+	/* Navbar positioning foo */
+	.navbar-wrapper {
+		margin-top: 20px;
+	}
+	.navbar-wrapper .container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.navbar-wrapper .navbar {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	/* The navbar becomes detached from the top, so we round the corners */
+	.navbar-wrapper .navbar {
+		border-radius: 4px;
+	}
+
+	/* Bump up size of carousel content */
+	.carousel-caption p {
+		margin-bottom: 5px;
+		font-size: 21px;
+		line-height: 1.4;
+	}
+}

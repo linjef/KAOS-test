@@ -1,0 +1,213 @@
+<!--===================================================
+	Title: research.html
+	Author: Tiffany thuang13@stanford.edu
+	Last Modified: 3/11/2015
+=====================================================-->
+<!-- Todo:
+	Figure out why header is not red like the main page....
+	Put pictures to right of text when screen width is not full-->
+	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hesselink Group page</title>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Google fonts -->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Garamond">
+	<link href='http://fonts.googleapis.com/css?family=Italiana' rel='stylesheet' type='text/css'>
+	
+	<!-- Icon -->
+	<link rel="icon" href="http://getbootstrap.com/favicon.ico"> <!-- Insert group icon/stanford icon? -->
+
+	<!-- Bootstrap core CSS 
+	<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Custom styles for this template -->
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/research.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<!-- ============ NAVIGATION BAR ============== -->
+		<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">Hesselink Group</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+				<li><a href="main.html">Home</a></li>
+				<li class="active"><a href="research.html">Research</a></li>
+				<li><a href="people.html">People</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+		  </div>
+		</nav>
+			
+		<!-- ============ CONTENT ===========-->
+		<div class="content">
+			<!-- Text -->
+			<div class="col-md-6">
+				<div class="post">
+						<div class="section">
+						<h4><strong>Nano-optical conveyor belt</strong></h4>
+						<p>Researchers: Yuxin Zheng, Jason D. Ryan, Paul C. Hansen, Asif Zaman, Tiffany W. Huang</p>
+						<p>The "nano-optical conveyor belt" can capture, manipulate, interrogate 
+							and sort nanoscale particles at the chip-scale using optical gradient 
+							forces. By concentrating light with metal nanostructures we obviate the 
+							need for tightly-focused laser beams to obtain high gradient forces; 
+							furthermore by exploiting the polarization and wavelength-selectivity of 
+							nanoapertures we propel nanoparticles in chosen directions without need 
+							for beam-steering or translation stages.  We envision applications for
+							concentrating, filtering, and organizing particles into patterns; 
+							performing Raman spectroscopy; nanomanufacturing; and schemes for 
+							sub-micron scale pumps and other devices. The conveyor belt is inherently 
+							a platform technology; we hope it will be  as widely-used in nanoscience as 
+							microfluidics. 
+						</p>
+						<p><strong>References:</strong></p>
+						<p>[4] P. Hansen, Y. Zheng, J. Ryan, L. Hesselink, "Nano-Optical Conveyor Belt, 
+						Part I: Theory," Nano Lett. 14(6), 2965-2970 (2014)
+						[<a href="http://pubs.acs.org/doi/abs/10.1021/nl404011s">Link</a>]
+						</p>
+						<p>[5] Y. Zheng, J. Ryan, P. Hansen, Y. T. Cheng, T. J. Lu, L. Hesselink, 
+						"Nano-Optical Conveyor Belt, Part II: Demonstration of Handoff," Nano. Lett. 14(6), 
+						2971-2976 (2014)
+						[<a href="http://pubs.acs.org/doi/abs/10.1021/nl404045n">Link</a>]
+						</p>
+					</div>
+					<div class="section">
+						<p>Researchers: Max Yuen, Yao-te Cheng, George Herring</p>
+						<h4><strong>X-ray differential phase contrast imaging and PeXSA</strong></h4>
+						<p>Traditional X-ray imaging systems have based on the absorption of material. Unlike
+						such absorption-based X-ray imaging system, recently, the grating based 
+						Talbot-Lau interferometer employing a low brilliance and incoherent X-ray source 
+						is widely adopted in medical imaging. This implementation is attractive because 
+						it does not require a coherent X-ray source nor long propagation distance. The 
+						X-ray differential phase contrast imaging system is a three-grating X-ray DPC 
+						system, and its optimum design is relatively insensitive to the source spectrum. 
+						High energy and wide field of view applications eventually require grating-less 
+						sources and detectors. 
+						</p>
+						<p><strong>References:</strong></p>
+						<p> [1] "Design of X-ray Differential Phase Contrast Imaging System for High Energy and 
+							Wide Spectrum X-ray Applications," CLEO 2014.
+							[<a href="http://www.opticsinfobase.org/abstract.cfm?uri=CLEO_AT-2014-JTh2A.136">Link</a>]
+						</p>
+					</div>
+					<div class="section">
+						<h4><strong>FDTD/ Adjoint FDTD</strong></h4>
+						<p>Researchers: Paul C. Hansen</p>
+						<p>Development of computational methods for design sensitivity analysis and
+							automated optimization of nanophotonic and plasmonic devices using adjoint
+							finite-difference time-domain solutions to Maxwell's equations. The rapid 
+							multiplication of innovative structures has been supported by powerful and 
+							accurate numerical methods such as finite-difference (FDTD, FDFD), finite 
+							element FEFD, FETD, CFEM...),and coupled wave analysis (RCWA). However, 
+							calculating the sensitivity of a design to a structural change using any of 
+							these methods requires one extra simulation for each perturbed system parameter. 
+							By combining an ordinary full-wave FDTD simulation with an adjoint FDTD 
+							solution, one can obtain the sensitivity of a device's performance to any 
+							number of design parameters at the cost of a few dot products between fields. 
+							This can speed up gradient-based optimization of devices by orders of magnitude.</p>
+						<p><strong>References:</strong></p>
+						<p> [1] Paul Hansen, Lambertus Hesselink, and Brian Leen "Design of a subwavelength bent 
+								C-aperture waveguide" Optics Letters, Vol. 32, Issue 12, pp. 1737-1739 (2007) 
+								[ <a href="http://www.opticsinfobase.org/abstract.cfm?URI=ol-32-12-1737">Link</a> ]
+						</p>
+						<p> [2] Paul C. Hansen, Yuxin Zheng, Eugene perederey, and Lambertus Hesselink "Adjoint 
+								FDTD for Nanophotonic Optimization" poster session, CLEO, Baltimore, MD (2011)
+						</p>
+					</div>
+					<div class="section">
+						<h4><strong>C-Aperture/C-aperture Nano-tip near-field optics</strong></strong></h4>
+						<p>Researchers: Yao-Te Cheng, Yin Yuen, Yuzuru Takashima
+						<p>The use of extremely efficient nano-sized apertures (less than 100 nm in 
+						size) for near field optical applications such as ultra-dense optical data 
+						storage using Very Small Aperture Lasers in conjunction with magneto-optic 
+						or phase change media for ultra-high density data storage.
+						We found that a single C-shaped aperture has a photon throughput 1000 times 
+						larger than round or square apertures, while producing the same nano-sized 
+						spots approximately one spot diameter away from the aperture surface.
+						This new way of creating extremely bright nanometer sized spots is expected 
+						to greatly enhance the performance of near-field optical probe scanning 
+						devices, scanning spot lithography, optical and optically assisted magnetic 
+						data storage and nano-biology and chemistry devices and experiments.
+						We are focusing our efforts on understanding the detailed physical processes 
+						involved through exact modeling of the interaction between electro-magnetic 
+						waves and matter, as well as experimental studies of practical applications.
+						</p>
+						<p><strong>References:</strong></p>
+						<p> [1] J. Brian Leen, Paul Hansen, Yao-Te Cheng, Aaron Gibby, and L. Hesselink
+								"Near-field optical data storage using C-apertures" Appl. Phys. Lett. 97, 073111 (2010) 
+								[ <a href="http://apl.aip.org/resource/1/applab/v97/i7/p073111_s1">Link</a> ] 
+						</p>
+						<p> [2] Yao-Te Cheng, Yuzuru Takashima, Yin Yuen, Paul C. Hansen, J. Brian Leen, and Lambertus Hesselink
+								"Ultra-high resolution resonant C-shaped aperture nano-tip" Opt. Express, Vol. 16, No. 6, 5077 (2011) 
+								[ <a href="http://www.opticsinfobase.org/oe/abstract.cfm?uri=oe-19-6-5077">Link</a> ]
+						</p>
+						<p> [3] Yao-Te Cheng, Yuzuru Takashima, Juan R. Maldonado, Larry Scipioni, David Ferranti, 
+								Piero A. Pianetta, Lambertus Hesselink, and R. Fabian Pease
+								"Sub-15 nm Photo-electron Source Using a Nano-aperture Integrated with a Nano-antenna"
+								Poster session, CLEO, Baltimore, MD (2011)
+						</p>
+					</div>
+					<div class="section">
+						<h4><strong>iLabs</strong></h4>
+						<p>Researchers: George Herring</p>
+						<p><a href="http://news.stanford.edu/news/2013/december/lab-ina-box-120613.html">Featured in Stanford Report!</a></p>
+					</div>
+					<div class="section">
+						<h4><strong>Thermal engine</strong></h4>
+						<p>
+					</div>
+					<div class="section">
+						<h4><strong><a href="oldsite/research.htm">Former research</a></strong></h4>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Images -->
+			<div class="col-md-6">
+				<!-- Conveyor Belt Image2 -->
+				<img class="img" src="research/nocb2.png" alt="NOCB2"/>
+				<!-- Conveyor Belt Image -->
+				<img class="img" src="research/nocb.jpg" alt="NOCB"/>
+				<!-- FDTD Image -->
+				<img class="img" src="research/trogdor.jpg" alt="FDTD"/>
+				<!-- C-Aperture -->
+				<img class="img" src="research/c-aperture.jpg" alt="C-aperture"/>
+				
+			</div>
+			<div class="clearfix visible-lg-block"></div> <!--Fixes it so footer stays at bottom-->
+		</div>
+	</div> <!-- /.container -->
+</div><!--/.body -->
+
+<!-- ============ FOOTER ============-->
+<footer>
+	<p>&copy; 2015 Hesselink Research Group, Stanford University. &middot;</p>
+</footer>
+<!-- ============ Bootstrap core JavaScript ============ -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+<script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+</html>
